@@ -1,6 +1,6 @@
 CREATE TABLE project(
 id INT(11) PRIMARY KEY AUTO_INCREMENT,
-name VARCHAR(100),
+name VARCHAR(100)
 );
 
 CREATE TABLE task(
@@ -8,25 +8,25 @@ id INT(11) PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR(250) NOT NULL,
 date_start DATETIME,
 date_end DATETIME,
-category_id INT(11) NOT NULL,
+category_id INT(11) NOT NULL
 );
 
-CREATE TABLE user(
+CREATE TABLE users(
 id INT(11) PRIMARY KEY AUTO_INCREMENT,
 firstname VARCHAR(45) NOT NULL,
 secondname VARCHAR(45) NOT NULL,
 middlename VARCHAR(45),
-birthdate DATE NOT NULL,
+birthdate DATE NOT NULL
 );
 
 CREATE TABLE category(
 id INT(11) PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR(100),
-parent_category INT(11),
+parent_category INT(11)
 );
 
 CREATE TABLE tag(
 id INT(11) PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR(45),
-colour VARCHAR(100),
+colour VARCHAR(100)
 );
