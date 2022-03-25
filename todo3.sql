@@ -30,9 +30,9 @@ name VARCHAR(20)
 );
 
 INSERT INTO company (name) VALUES 
-('Franklin Simon'), ('Rainbow Bay Crafts'), ('Shoe Kicks'), ('Ideal Garden Maintenance'), ('Wise Solutions'), ('The Serendipity Dip'),
-('Netcore'), ('Sounds Great, Inc'), ('Personal & Corporate Design'), ('Standard Sales'), ('Licorice Pizza'), ('Hills Supermarkets'),
-('ManPower'), ('Virgin Megastores');
+('Franklin_Simon'), ('Rainbow_Bay_Crafts'), ('Shoe_Kicks'), ('Ideal_Garden_Maintenance'), ('Wise_Solutions'), ('The_Serendipity_Dip'),
+('Netcore'), ('Sounds_Great_Inc'), ('Personal_&_Corporate_Design'), ('Standard_Sales'), ('Licorice_Pizza'), ('Hills_Supermarkets'),
+('ManPower'), ('Virgin_Megastores');
 INSERT INTO city (name) VALUES
-('Tomsk'), ('Novosibirsk'), ('New York'), ('Miami'), ('Yakima'), ('Pine Bluss'), ('Little Rock'), ('Newark'),
-('Burr Ridge'), ('Caldwell'), ('Orlando'), ('Oakland'), ('Dayton'), ('Martinsburg'), ('Somerville');
+('Tomsk'), ('Novosibirsk'), ('New_York'), ('Miami'), ('Yakima'), ('Pine_Bluss'), ('Little_Rock'), ('Newark'),
+('Burr_Ridge'), ('Caldwell'), ('Orlando'), ('Oakland'), ('Dayton'), ('Martinsburg'), ('Somerville');
