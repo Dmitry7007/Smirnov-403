@@ -1,7 +1,7 @@
 ALTER TABLE users ADD(
 gender ENUM('male','female'),
 email VARCHAR(255) UNIQUE,
-company VARCHAR(255),
+company VARCHAR(100),
 occupation VARCHAR(100),
 street VARCHAR(45),
 city VARCHAR(45),
