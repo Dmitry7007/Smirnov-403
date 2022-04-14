@@ -7,7 +7,7 @@ street VARCHAR(45),
 city VARCHAR(45),
 state VARCHAR(45),
 telephone DECIMAL(10) UNIQUE,
-mobile DECIMAL(10) UNIQUE);
+mobile DECIMAL(11) UNIQUE);
 
 ALTER TABLE users
 ADD CONSTRAINT UNIQUE (firstname, secondname, middlename, birthdate, street, city, state);
