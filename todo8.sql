@@ -1,0 +1,1 @@
+SELECT titles.title AS `post`, AVG(salaries.salary) AS `average salary` FROM titles JOIN salaries ON titles.emp_no = salaries.emp_no GROUP BY titles.title
